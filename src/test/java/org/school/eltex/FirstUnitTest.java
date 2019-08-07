@@ -6,6 +6,7 @@ import java.util.Arrays;
 import java.util.List;
 
 import org.junit.jupiter.api.Disabled;
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
 class FirstUnitTest {
@@ -25,7 +26,7 @@ class FirstUnitTest {
     }
 
     @Test
-    @Disabled
+    @DisplayName("╯°□°）╯")
     void disabledTest() {
         assertTrue(false);
     }
