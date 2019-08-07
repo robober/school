@@ -27,6 +27,7 @@ class FirstUnitTest {
 
     @Test
     @DisplayName("╯°□°）╯")
+    @Disabled
     void disabledTest() {
         assertTrue(false);
     }
