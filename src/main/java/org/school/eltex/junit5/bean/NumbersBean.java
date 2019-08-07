@@ -1,11 +1,5 @@
 package org.school.eltex.junit5.bean;
 
-/**
- * Bean that contains utility methods to work with numbers.
- * 
- * @author Donato Rimenti
- *
- */
 public class NumbersBean {
 
     /**
@@ -16,7 +10,7 @@ public class NumbersBean {
      * @return true if the argument is even, false otherwise
      */
     public boolean isNumberEven(int number) {
-        return number % 2 == 0;
+        return number / 2 == 0;
     }
 
 }

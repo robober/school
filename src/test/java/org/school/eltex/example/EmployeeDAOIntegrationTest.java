@@ -20,9 +20,9 @@ public class EmployeeDAOIntegrationTest {
     private EmployeeDAO employeeDao;
 
     @Test
-    @Ignore
+//    @Ignore
     public void testQueryMethod() {
-        Assert.assertEquals(employeeDao.getAllEmployees().size(), 5);
+        Assert.assertEquals(employeeDao.getAllEmployees().size(), 4);
     }
 
     @Test
@@ -32,7 +32,7 @@ public class EmployeeDAOIntegrationTest {
     }
 
     @Test
-    @Ignore
+//    @Ignore
     public void testAddEmployeeUsingSimpelJdbcInsert() {
         final Employee emp = new Employee();
         emp.setId(11);

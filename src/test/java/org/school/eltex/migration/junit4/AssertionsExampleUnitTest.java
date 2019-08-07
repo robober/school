@@ -10,7 +10,6 @@ import org.junit.Test;
 
 public class AssertionsExampleUnitTest {
     @Test
-    @Ignore
     public void shouldFailBecauseTheNumbersAreNotEqualld() {
         assertEquals("Numbers are not equal!", 2, 3);
     }

@@ -5,12 +5,6 @@ import org.junit.jupiter.api.Test;
 
 import org.school.eltex.junit5.bean.NumbersBean;
 
-/**
- * Test class for {@link NumbersBean}.
- * 
- * @author Donato Rimenti
- *
- */
 public class NumbersBeanUnitTest {
 
 	/**

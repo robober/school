@@ -12,13 +12,13 @@ import org.junit.runner.RunWith;
 @RunWith(JUnitPlatform.class)
 public class AssertionsExampleUnitTest {
     @Test
-    @Disabled
+//    @Disabled
     public void shouldFailBecauseTheNumbersAreNotEqual() {
         Assertions.assertEquals(2, 3, "Numbers are not equal!");
     }
 
     @Test
-    @Disabled
+//    @Disabled
     public void shouldFailBecauseItsNotTrue_overloading() {
         Assertions.assertTrue(() -> {
             return false;

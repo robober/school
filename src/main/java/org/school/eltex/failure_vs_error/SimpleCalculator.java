@@ -1,9 +1,5 @@
 package org.school.eltex.failure_vs_error;
 
-/**
- * @author paullatzelsperger
- * @since 2019-07-17
- */
 public class SimpleCalculator {
 
     public static double divideNumbers(double dividend, double divisor) {
@@ -11,5 +7,9 @@ public class SimpleCalculator {
             throw new ArithmeticException("Division by zero!");
         }
         return dividend / divisor;
+    }
+
+    public static int sum(double left, double right) {
+        return (int) (left + right);
     }
 }
