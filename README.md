@@ -1,4 +1,4 @@
-### Relevant Articles:
+### Статьи-ссылки, на которых основан репозиторий:
 - [A Guide to JUnit 5](http://www.baeldung.com/junit-5)
 - [JUnit5 @RunWith](http://www.baeldung.com/junit-5-runwith)
 - [Get the Path of the /src/test/resources Directory in JUnit](https://www.baeldung.com/junit-src-test-resources-directory-path)
